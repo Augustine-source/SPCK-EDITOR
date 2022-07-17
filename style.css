@@ -1,0 +1,56 @@
+  :root {
+    font-size: 16px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  html, body {
+    background-color: #ecf0f3;
+    display: grid;
+    place-content: center;
+    height: 100%;
+  }
+
+  .container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    margin: 2px;
+    padding: 4px;
+    width: 47px;
+  }
+
+  .sect {
+    width: 40px;
+    height: 3.5px;
+    background-color: white;
+    margin: 4px;
+    border-radius: 5px;
+  }
+
+  .main {
+    padding: 2rem;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    box-shadow: 
+    3px 10px 30px rgba(0,0,0,0.3),
+    -3px 10px 30px #fff,
+    3px 10px 30px rgba(0,0,0,0.3),
+    -3px -10px 30px #fff;
+  }
+
+  #clock {
+    font-size: 6rem;
+  }
+
+  #date {
+    margin-top: 5px;
+    /* color: black; */
+    font-size: 1.4rem;
+    /* letter-spacing: 1px; */
+  }
